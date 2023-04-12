@@ -7,11 +7,10 @@ $email = $_POST["email"];
 $teacher = $_POST["teacher"];
 $notes = $_POST["notes"];
   
-$host = "Endpoint
-meetinginfo.cgj7os1xcd9b.us-east-1.rds.amazonaws.com";
+$host = "";
 $dbname = "bpeightal1";
 $username = "bpeightal";
-$password = "unoproject";
+$password = "";
 
 mysqli_connect($host, $username, $password, $dbname);
 
