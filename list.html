@@ -9,6 +9,19 @@
 
 <h1>Meeting List</h2>
 
+<form action="sort.py" method="get">
+  <li>
+  <label for="sort">Sorting Method: </label>
+  <select name="sort">
+  <option value"default">Default</option>
+  <option value"name">Name</option>
+  <option value"date">Date</option>
+    </select>
+    <button type="submit">Sort</button>
+    </li>
+    </form>
+    
+
 <?php
 
 $con=mysqli_connect("meetinginfo.cgj7os1xcd9b.us-east-1.rds.amazonaws.com","bpeightal","unoproject","bpeightal1");
